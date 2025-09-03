@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:Munter/hyperlink.git"
+    "url": "git@github.com:pdaoust/hyperlink.git"
   },
   "keywords": [
     "web",
@@ -24,9 +24,19 @@
     "assetgraph"
   ],
   "author": "Peter Müller <munter@fumle.dk>",
+  "maintainers": [
+    {
+      "name": "Paul d'Aoust",
+      "email": "amillionlobsters@gmail.com"
+    },
+    {
+      "name": "Peter Müller",
+      "email": "munter@fumle.dk"
+    }
+  ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Munter/hyperlink/issues"
+    "url": "https://github.com/pdaoust/hyperlink/issues"
   },
   "bin": {
     "hyperlink": "lib/cli.js"
@@ -34,7 +44,7 @@
   "files": [
     "lib"
   ],
-  "homepage": "https://github.com/Munter/hyperlink",
+  "homepage": "https://github.com/pdaoust/hyperlink",
   "dependencies": {
     "@munter/tap-render": "^0.2.0",
     "assetgraph": "^7.3.1",
